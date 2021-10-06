@@ -12,10 +12,10 @@ resources:
 #- argocd/namespace-sealed-secrets.yaml
 #- argocd/namespace-tools.yaml
 #- argocd/namespace-instana-agent.yaml
-#- argocd/namespace-openshift-storage.yaml
-#- argocd/storage.yaml
-#- argocd/infraconfig.yaml
-#- argocd/machinesets.yaml
+- argocd/namespace-openshift-storage.yaml
+- argocd/storage.yaml
+- argocd/infraconfig.yaml
+- argocd/machinesets.yaml
 patches:
 - target:
     group: argoproj.io
