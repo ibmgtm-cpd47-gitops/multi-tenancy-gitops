@@ -32,7 +32,7 @@ resources:
 #- argocd/operators/ibm-automation-foundation-operator.yaml
 
 ## IBM Catalogs
-- argocd/operators/ibm-catalogs.yaml
+#- argocd/operators/ibm-catalogs.yaml
 
 
 # Required for IBM MQ
